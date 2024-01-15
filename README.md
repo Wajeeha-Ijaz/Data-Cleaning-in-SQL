@@ -20,5 +20,7 @@ This is a guided project from Coursera, in which I have learnt about cleaning da
 - **It takes two arguments**:
   - First is the **expression** to be checked for NULL,
   - Second is the **value** to be returned if the expression is NULL.
+### Code for the guided project can be found [here](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/Guided%20Project.sql)
+### Database I have used can be found [here](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/instnwnd.sql)
 
 This guided project also provided a capstones project that I did by myself. 
