@@ -1,5 +1,17 @@
 # Data Cleaning in SQL
 This is a guided project from Coursera, in which I have learnt about cleaning data in SQL using following methods
+For this project, open-source database (NorthWind Database) was used . 
+### About NorthWind Dataset
+The Northwind dataset includes sample data for the following.
+- Suppliers: Suppliers and vendors of Northwind
+- Customers: Customers who buy products from Northwind
+- Employees: Employee details of Northwind traders
+- Products: Product information
+- Shippers: The details of the shippers who ship the products from the traders to the end-customers
+- Orders and Order_Details: Sales Order transactions taking place between the customers & the company.
+- **[Database](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/instnwnd.sql)**
+- **[Database ERD](https://docs.yugabyte.com/images/sample-data/northwind/northwind-er-diagram.png)** 
+### About Project
 1. **Removed duplicates, Using ROW_NUMBER and CTE**
 2. **Created categories, Using CASE statements**
 3. **Dealing with NULL values, using ISNULL()**
@@ -20,7 +32,14 @@ This is a guided project from Coursera, in which I have learnt about cleaning da
 - **It takes two arguments**:
   - First is the **expression** to be checked for NULL,
   - Second is the **value** to be returned if the expression is NULL.
-### Code for the guided project can be found [here](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/Guided%20Project.sql)
-### Database I have used can be found [here](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/instnwnd.sql)
+  - **[Code for the guided project](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/Guided%20Project.sql)**
 
+# Capstone Project
 This guided project also provided a capstones project that I did by myself. 
+I had following tasks to do
+
+1. Delete duplicate rows of QuantityPerUnit in the products table.
+2. Create variable Restock now when UnitsOnOrder > 50 and UnitsInStock < 20.
+3. Create variables, Restock now, Restock Next Week, Restock Next Month, Restock in 6 Months, Ask Manager
+4. Deal with NULL Values in Column (Region & Fax).
+5. **[Code for the task](https://github.com/Wajeeha-Ijaz/Data-Cleaning-in-SQL/blob/main/Task.sql)**
