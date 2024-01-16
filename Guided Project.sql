@@ -1,3 +1,5 @@
+-- Remove Duplicates using CTEs and ROW_NUMBER ()
+
 WITH OrdersTable as (
 SELECT CustomerID, ShipName, ShipAddress, ShipPostalCode, ShipCountry,
 ROW_NUMBER() OVER(PARTITION BY CustomerID ORDER BY  CustomerID) as RN
@@ -7,6 +9,7 @@ SELECT CustomerID, ShipAddress,ShipCountry,ShipName,ShipPostalCode
 FROM OrdersTable
 WHERE RN = 1;
 
+-- Create Categories about Freight and filter data using CTE
 
 WITH ct as
 (
@@ -23,6 +26,7 @@ SELECT Freight,Charge
 FROM ct
 WHERE Charge = 'Low Charge';
 
+--Replace Null values in Region column
 
 SELECT CustomerID, ContactName, City,ISNULL (Region, 'No Region') as region
 FROM Customers
