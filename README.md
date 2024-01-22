@@ -1,4 +1,4 @@
-# Data Cleaning in SQL
+# Data Cleaning in SQL (SQL)
 This is a guided project from Coursera, in which I have learnt about cleaning data in SQL using following methods
 For this project, open-source database (NorthWind Database) was used . 
 ### About NorthWind Dataset
